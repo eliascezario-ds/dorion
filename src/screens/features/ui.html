@@ -1,50 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dorion Design Tokens (Beta)</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
 <body>
-  <div id="screen-index" class="screen">
+  <div class="screen" id="screen-index">
     <div class="header">
       <div></div>
-      <div class="tooltip-wrapper">
-        <button class="goToAbout btn-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"></svg>
-        </button>
-        <span class="tooltip" side="left">About Dorion</span>
-      </div>
+      <button class="btn-icon">
+        <svg></svg>
+      </button>
     </div>
     <div class="content">
+      <div class="fr-logo">
+        <svg></svg>
+      </div>
       <div class="fr-cards">
-        <div class="goToCss card">
+        <div id="goToCss" class="card">
           <div class="card-icon">
-            <svg class="icon-brand" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"
-              fill="currentColor"></svg>
+            <svg></svg>
           </div>
           <div class="card-label">Figma Variables</div>
           <div class="card-subicon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24" fill="none"></svg>
+            <svg></svg>
           </div>
         </div>
-        <div id="" class="card" state="disabled">
+        <div class="card" state="disabled">
           <span class="tag">Available soon</span>
           <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none"></svg>
+            <svg></svg>
           </div>
           <div class="card-label">Figma Styles</div>
-          <div class="card-subicon"></div>
+          <div class="card-subicon">
+            <svg></svg>
+          </div>
         </div>
-        <div id="" class="card" state="disabled">
+        <div class="card" state="disabled">
           <span class="tag">Available soon</span>
           <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none"></svg>
+            <svg></svg>
           </div>
           <div class="card-label">Color ramp</div>
           <div class="card-subicon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="96" height="24" viewBox="0 0 96 24" fill="none"></svg>
+            <svg></svg>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- JS principal da UI -->
+  <script type="module" src="./ui.mjs"></script>
 </body>
 
 </html>
