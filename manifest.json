@@ -2,7 +2,10 @@
   "name": "Dorion Design Tokens",
   "id": "dorion-design-tokens",
   "api": "1.0.0",
-  "main": "code.js",
-  "ui": "ui.html",
-  "editorType": ["figma", "dev"]
+  "main": "dist/code.js",
+  "ui": "https://eliascezario-ds.github.io/dorion/dist/ui.html",
+  "editorType": ["figma", "dev"],
+  "networkAccess": {
+    "allowedDomains": ["https://eliascezario-ds.github.io"]
+  }
 }
