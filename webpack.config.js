@@ -43,6 +43,7 @@ export default {
     new HtmlWebpackPlugin({
       filename: "ui.html",
       template: "./src/screens/features/ui.html",
+      inject: "body",
       chunks: ["ui"],
     }),
     new CopyPlugin({
