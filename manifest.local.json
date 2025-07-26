@@ -1,7 +1,7 @@
 {
   "name": "Dorion Design Tokens (Dev)",
   "id": "dorion-design-tokens-dev",
-  "api":"1.0.0",
+   "api":"1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
   "editorType": ["figma", "dev"]

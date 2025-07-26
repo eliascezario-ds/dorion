@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "use:local": "copy manifest.local.json manifest.json",
+    "use:remote": "copy manifest.remote.json manifest.json"
   },
   "repository": {
     "type": "git",
